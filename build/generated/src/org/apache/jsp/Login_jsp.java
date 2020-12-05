@@ -97,7 +97,7 @@ public final class Login_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("            <div class=\"card card-login mx-auto mt-5\">\n");
       out.write("                <div class=\"card-header\">Login</div>\n");
       out.write("                <div class=\"card-body\">\n");
-      out.write("                    <form action=\"LoginControllers\"method=\"Post\">\n");
+      out.write("                    <form action=\"LoginController\" method=\"post\">\n");
       out.write("                        <div class=\"form-group\">\n");
       out.write("                            <label for=\"lblEmail\">Email</label>\n");
       out.write("                            <input class=\"form-control\" name=\"txtEmail\" type=\"email\" aria-describedby=\"emailHelp\" placeholder=\"Ingrese email\">\n");

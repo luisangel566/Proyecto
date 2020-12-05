@@ -30,4 +30,12 @@ public class clsFuentePosibleCliente {
     }
     public String Descripcion;
 
+    public void setInCodigo(int parseInt) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public void setStDescripcion(String atDescripcion) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
 }

@@ -17,8 +17,8 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author HECTOR
  */
-@WebServlet(name = "PosiblesClienteController", urlPatterns = {"/PosiblesClienteController"})
-public class PosiblesClienteController extends HttpServlet {
+@WebServlet(name = "PosibleClienteController", urlPatterns = {"/PosibleClienteController"})
+public class PosibleClienteController extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -37,10 +37,10 @@ public class PosiblesClienteController extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet PosiblesClienteController</title>");            
+            out.println("<title>Servlet PosibleClienteController</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Servlet PosiblesClienteController at " + request.getContextPath() + "</h1>");
+            out.println("<h1>Servlet PosibleClienteController at " + request.getContextPath() + "</h1>");
             out.println("</body>");
             out.println("</html>");
         }

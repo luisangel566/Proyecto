@@ -14,8 +14,8 @@ public class clsLogin {
     public boolean validarLogin(Models.clsLogin obclsLogin) {
         try {
 
-            return obclsLogin.getStEmail().equals("luisdx5666@gmail.com")
-                    && obclsLogin.getStPassword().equals("vegueta7777");
+            return obclsLogin.getStEmail().equals("luisrx345@gmail.com")
+                    && obclsLogin.getStPassword().equals("rx22");
 
         } catch (Exception ex) {
             throw ex;

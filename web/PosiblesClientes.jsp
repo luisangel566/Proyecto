@@ -222,6 +222,7 @@
                                     <label name="Correo electronico">Correo electronico segundario</label>
                                     <input type="email" placeholder="Correo electronico segundario" name="txtCorreoelectronicosecundario" class="form-control"/>
                                 </div>
+                                
                             </div>
                         </div>                
                     </form>

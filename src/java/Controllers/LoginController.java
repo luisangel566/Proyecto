@@ -20,6 +20,8 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet(name = "LoginController", urlPatterns = {"/LoginController"})
 public class LoginController extends HttpServlet {
 
+    private static final long serialVersionUID = 1L;
+
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
      * methods.
@@ -44,8 +46,8 @@ public class LoginController extends HttpServlet {
             if(!stMensaje.equals(""))throw new Exception(stMensaje.substring(0,stMensaje.length()-1));
             //intanciando objeto
             Models.clsLogin obclsLogin=new Models.clsLogin();
-            obclsLogin.setStEmail(request.getParameter("txtEmail").toString());
-            obclsLogin.setStPassword(request.getParameter("txtPassword)").toString());
+            obclsLogin.setStEmail(request.getParameter("txtEmail"));
+            obclsLogin.setStPassword(request.getParameter("txtPassword)"));
             
             //intanciando controlador
             BL.clsLogin obBLcslLogin =new BL.clsLogin();
@@ -54,12 +56,10 @@ public class LoginController extends HttpServlet {
             boolean blBandera= obBLcslLogin.validarLogin(obclsLogin);
             if(blBandera)
                 //direcionamiento JSP
-     request.getRequestDispatcher("Index.jsp").forward(request, response);
+     request.getRequestDispatcher("index.jsp").forward(request, response);
             else
         throw new Exception("Email o Password incorrecto");
-            
-            
-                    
+                                 
     }catch(Exception ex){
        request.setAttribute("stError", ex.getMessage());
        //Envio de parametros o valores
@@ -67,7 +67,6 @@ public class LoginController extends HttpServlet {
        request.getRequestDispatcher("Login.jsp").forward(request, response);
     }
         }
-
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
     /**
@@ -104,7 +103,7 @@ public class LoginController extends HttpServlet {
      * @return a String containing servlet description
      */
     @Override
-    public String getServletInfo() {
+    public  String getServletInfo() {
         return "Short description";
     }// </editor-fold>
 
