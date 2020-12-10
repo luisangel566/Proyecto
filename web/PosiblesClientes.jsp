@@ -226,9 +226,8 @@
                                     </select>      
                                 </div>
                                 <div class="col-md-3">
-                                    <label name="lbNoParticipacionCorreoElectronico">   
-                                        
-                                        <input type="checkbox"  name="chkNoParticipacionCorreoElectro
+                                    <label name="lbNoParticipacionCorreoElectronico">
+                                        <input type="checkbox"  name="chkNoParticipacionCorreoElectronico"/>
                                        No participacion correo electronico
                                     </label> 
                                 </div>
