@@ -10,8 +10,9 @@ package Models;
  * @author HECTOR
  */
 public class clsEstadoPosibleCliente {
-
+    
     public int inCodigo;
+    public String stDescripcion; 
 
     public int getInCodigo() {
         return inCodigo;
@@ -21,13 +22,13 @@ public class clsEstadoPosibleCliente {
         this.inCodigo = inCodigo;
     }
 
-    public String getDescripcion() {
-        return Descripcion;
+    public String getStDescripcion() {
+        return stDescripcion;
     }
 
-    public void setDescripcion(String Descripcion) {
-        this.Descripcion = Descripcion;
+    public void setStDescripcion(String stDescripcion) {
+        this.stDescripcion = stDescripcion;
     }
-    public String Descripcion;
-
+    
+    
 }

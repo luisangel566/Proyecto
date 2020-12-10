@@ -3,7 +3,6 @@
     Created on : 27-nov-2020, 16:13:04
     Author     : HECTOR
 --%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -38,11 +37,11 @@
             if (request.getAttribute("stError") != null) {
 
         %>
-        <input type="text"  hidden=""  id="txtMensaje" value = "<%= request.getAttribute("stError").toString()%>"
+        <input type="text"  hidden=""  id="txtMensaje" value = "<%= request.getAttribute("stError").toString()%>"/>
         <script>   
 
-            var stMensaje = document.getElementById("txtMensaje").value >
-                    swal("Mensaje", document.getElementById("txtMensaje").value, "error"")>
+              
+                    swal("Mensaje", document.getElementById("txtMensaje").value, "error");
         </script>
         <%
             }
@@ -81,5 +80,3 @@
 
     </body>
 </html>
-
-

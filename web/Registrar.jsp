@@ -27,6 +27,13 @@
         <!-- Core plugin JavaScript-->
         <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
     </head>
+</body>
+
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- Core plogin JavaScript-->
+<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+</head>
     <body class="bg-dark">
         <div class="container">
             <div class="card card-register mx-auto mt-5">
@@ -104,4 +111,13 @@
         </div>
 
     </body>
+
+</html>
+
+
+
+</body>
+
+</html>
+
 </html>

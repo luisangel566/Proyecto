@@ -9,16 +9,7 @@ package Models;
  *
  * @author HECTOR
  */
-public class clsPosibleCliente {
-    private String Empresa;
-
-    public String getEmpresa() {
-        return Empresa;
-    }
-
-    public void setEmpresa(String Empresa) {
-        this.Empresa = Empresa;
-    }
+public class clsPosibleCliente {    
 
     public String getStNombre() {
         return stNombre;
@@ -76,12 +67,12 @@ public class clsPosibleCliente {
         this.stMovil = stMovil;
     }
 
-    public String getStsitioweb() {
-        return stsitioweb;
+    public String getStSitioWeb() {
+        return stSitioWeb;
     }
 
-    public void setStsitioweb(String stsitioweb) {
-        this.stsitioweb = stsitioweb;
+    public void setStSitioWeb(String stSitioWeb) {
+        this.stSitioWeb = stSitioWeb;
     }
 
     public clsFuentePosibleCliente getObclsFuentePosibleCliente() {
@@ -164,53 +155,55 @@ public class clsPosibleCliente {
         this.stCorreoElectronicosecundario = stCorreoElectronicosecundario;
     }
     //ATRIBUTOS O PROPIEDADES
-    private int intCodigo;
-    private String stEmpresa;
-    private String stNombre;
-    private String stApellidos;
-    private  String stTitulo;
-    private  String stCorreoelectronico;
-    private  String stTelefono;
-    private String stFax;
-    private  String stMovil;
-    private  String stsitioweb;
-    private clsFuentePosibleCliente obclsFuentePosibleCliente;
-    private  clsEstadoPosibleCliente obclsEstadoposiblecliente;
-    private clsSector obclsSector;
-    private int  incantidadempleados;
-    private double dbIngresosAnuales;
-    private clsCalificacion obclsCalificacion;
-    private boolean blNoparticipacionCorreoElectronico;
-    private   String stIDskype;
-    private  String stTwitter;
-    private String stCorreoElectronicosecundario;                                          
+    public int inCodigo;
+    public String stEmpresa;
+    public String stNombre;
+    public String stApellidos;
+    public String stTitulo;
+    public String stCorreoelectronico;
+    public String stTelefono;
+    public String stFax;
+    public String stMovil;
+    public String stSitioWeb;
+    public clsFuentePosibleCliente obclsFuentePosibleCliente;
+    public clsEstadoPosibleCliente obclsEstadoposiblecliente;
+    public clsSector obclsSector;
+    public int incantidadempleados;
+    public double dbIngresosAnuales;
+    public clsCalificacion obclsCalificacion;
+    public boolean blNoparticipacionCorreoElectronico;
+    public String stIDskype;
+    public String stTwitter;
+    public String stCorreoElectronicosecundario;
 
-    public void FuentePosibleCliente(int parseInt) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+   
 
     /**
      * @return the intCodigo
      */
-    private int getIntCodigo() {
-        return intCodigo;
+    public int getInCodigo() {
+        return inCodigo;
     }
 
     /**
-     * @param intCodigo the intCodigo to set
+     @param intCodigo the intCodigo to set
      */
-    private void setIntCodigo(int intCodigo) {
-        this.intCodigo = intCodigo;
+    public void setInCodigo(int inCodigo) {
+        this.inCodigo = inCodigo;
     }
 
     /**
      * @param stEmpresa the stEmpresa to set
      */
-    private void setStEmpresa(String stEmpresa) {
+    public void setStEmpresa(String stEmpresa) {
         this.stEmpresa = stEmpresa;
     }
 
-    private void setStDescripcion(String atDescripcion) {
+    public String getStEmpresa() {
+        return stEmpresa;
+    }
+
+    public void setBlNoparticipacionCorreoElectronico(char c) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }

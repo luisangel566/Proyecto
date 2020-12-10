@@ -15,7 +15,7 @@ public class clsLogin {
         try {
 
             return obclsLogin.getStEmail().equals("luisrx345@gmail.com")
-                    && obclsLogin.getStPassword().equals("rx22");
+                    && obclsLogin.getStPassword().equals("123Cambiar#");
 
         } catch (Exception ex) {
             throw ex;

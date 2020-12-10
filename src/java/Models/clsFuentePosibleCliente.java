@@ -11,31 +11,22 @@ package Models;
  */
 public class clsFuentePosibleCliente {
 
-    public int incodigo;
+    public int inCodigo;
 
-    public int getIncodigo() {
-        return incodigo;
+    public int getInCodigo() {
+        return inCodigo;
     }
 
-    public void setIncodigo(int incodigo) {
-        this.incodigo = incodigo;
+    public void setInCodigo(int inCodigo) {
+        this.inCodigo = inCodigo;
     }
 
-    public String getDescripcion() {
-        return Descripcion;
+    public String getStDescripcion() {
+        return stDescripcion;
     }
 
-    public void setDescripcion(String Descripcion) {
-        this.Descripcion = Descripcion;
+    public void setStDescripcion(String stDescripcion) {
+        this.stDescripcion = stDescripcion;
     }
-    public String Descripcion;
-
-    public void setInCodigo(int parseInt) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    public void setStDescripcion(String atDescripcion) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
+    public String stDescripcion;
 }

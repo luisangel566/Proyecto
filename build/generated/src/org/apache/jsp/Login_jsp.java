@@ -43,7 +43,6 @@ public final class Login_jsp extends org.apache.jasper.runtime.HttpJspBase
 
       out.write("\n");
       out.write("\n");
-      out.write("\n");
       out.write("<!DOCTYPE html>\n");
       out.write("<html>\n");
       out.write("    <head>\n");
@@ -81,11 +80,11 @@ public final class Login_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\n");
       out.write("        <input type=\"text\"  hidden=\"\"  id=\"txtMensaje\" value = \"");
       out.print( request.getAttribute("stError").toString());
-      out.write("\"\n");
+      out.write("\"/>\n");
       out.write("        <script>   \n");
       out.write("\n");
-      out.write("            var stMensaje = document.getElementById(\"txtMensaje\").value >\n");
-      out.write("                    swal(\"Mensaje\", document.getElementById(\"txtMensaje\").value, \"error\"\")>\n");
+      out.write("              \n");
+      out.write("                    swal(\"Mensaje\", document.getElementById(\"txtMensaje\").value, \"error\");\n");
       out.write("        </script>\n");
       out.write("        ");
 
@@ -125,9 +124,7 @@ public final class Login_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("        </div>\n");
       out.write("\n");
       out.write("    </body>\n");
-      out.write("</html>\n");
-      out.write("\n");
-      out.write("\n");
+      out.write("</html>");
     } catch (Throwable t) {
       if (!(t instanceof SkipPageException)){
         out = _jspx_out;

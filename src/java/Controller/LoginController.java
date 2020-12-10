@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Controllers;
+package Controller;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -47,7 +47,7 @@ public class LoginController extends HttpServlet {
             //intanciando objeto
             Models.clsLogin obclsLogin=new Models.clsLogin();
             obclsLogin.setStEmail(request.getParameter("txtEmail"));
-            obclsLogin.setStPassword(request.getParameter("txtPassword)"));
+            obclsLogin.setStPassword(request.getParameter("txtPassword"));
             
             //intanciando controlador
             BL.clsLogin obBLcslLogin =new BL.clsLogin();

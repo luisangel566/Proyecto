@@ -50,7 +50,7 @@
                 <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Posibles clientes">
                     <a class="nav-link" href="PosiblesClientes.jsp">
                         <i class="fa fa-fw fa-address-book"></i>
-                        <span class="nav-link-text">Posibles clientes</span>
+                        <span class="nav-link-text">Posiblesclientes</span>
                     </a>
                 </li>
             </ul>
